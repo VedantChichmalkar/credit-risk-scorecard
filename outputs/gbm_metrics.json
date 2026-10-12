@@ -1,0 +1,21 @@
+{
+  "train": {
+    "model": "gbm (train)",
+    "auc": 0.7435,
+    "gini": 0.4869,
+    "ks": 0.3545,
+    "ks_threshold": 0.1895,
+    "base_rate": 0.1846,
+    "n": 829355
+  },
+  "test": {
+    "model": "gbm (test, out-of-time)",
+    "auc": 0.7161,
+    "gini": 0.4323,
+    "ks": 0.314,
+    "ks_threshold": 0.172,
+    "base_rate": 0.2242,
+    "n": 518744
+  },
+  "backend": "sklearn_hgb"
+}

@@ -1,0 +1,20 @@
+{
+  "train": {
+    "model": "logistic_woe (train)",
+    "auc": 0.7133,
+    "gini": 0.4266,
+    "ks": 0.3089,
+    "ks_threshold": 0.1816,
+    "base_rate": 0.1846,
+    "n": 829355
+  },
+  "test": {
+    "model": "logistic_woe (test, out-of-time)",
+    "auc": 0.7023,
+    "gini": 0.4046,
+    "ks": 0.2919,
+    "ks_threshold": 0.1727,
+    "base_rate": 0.2242,
+    "n": 518744
+  }
+}
